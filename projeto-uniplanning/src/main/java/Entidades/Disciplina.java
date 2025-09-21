@@ -1,6 +1,5 @@
 package Entidades;
 
-import javax.annotation.processing.Generated;
 
 import jakarta.persistence.Entity; 
 import jakarta.persistence.GeneratedValue;
