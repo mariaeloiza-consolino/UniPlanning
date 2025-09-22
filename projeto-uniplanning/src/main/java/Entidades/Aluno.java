@@ -9,9 +9,9 @@ import jakarta.persistence.ManyToOne;
 @Entity
 public class Aluno {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     public Integer id;
+
     public String nome;
     public String cpf;
     public String email;
@@ -22,5 +22,8 @@ public class Aluno {
 
     @ManyToOne
     public Turma turma;
-    
+
 }
+
+
+   

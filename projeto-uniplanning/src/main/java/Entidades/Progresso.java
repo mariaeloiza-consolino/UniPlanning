@@ -1,7 +1,5 @@
 package Entidades;
 
-import org.hibernate.annotations.ManyToAny;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -17,7 +15,7 @@ public class Progresso {
     @ManyToOne
     public Disciplina disciplina;
 
-    @ManyToAny
+    @ManyToOne
     public Aluno aluno;
 
 }

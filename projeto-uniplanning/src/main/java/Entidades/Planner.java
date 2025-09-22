@@ -5,6 +5,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
+
 import java.time.LocalDateTime;
 
 
@@ -14,10 +16,12 @@ public class Planner {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer id;
 
-
-    public Integer alunoId;
     public String prioridades;
     public LocalDateTime agenda;
     public String tarefas;
+
+    @ManyToOne
+    public Aluno aluno;
+
 }
 

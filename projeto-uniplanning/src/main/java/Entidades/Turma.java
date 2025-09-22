@@ -7,10 +7,10 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Turma {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+   @Id
+   @GeneratedValue (strategy = GenerationType.IDENTITY)
+    public Integer id;
 
     public String nome;
-    public Integer id;
-    
+   
 } 
