@@ -8,7 +8,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne; 
 
 @Entity 
-
 public class Disciplina { 
     @Id 
     @GeneratedValue (strategy = GenerationType.IDENTITY)
