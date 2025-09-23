@@ -18,7 +18,6 @@ public class VideoAulasTests {
         videoAula.professor = Professor.findById(6);
         videoAula.persist();
 
-        Assertions.assertEquals(videoAula.id, 6);
-    }
-
+        Assertions.assertEquals(6, videoAula.id);
+    }
 }

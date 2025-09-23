@@ -17,5 +17,5 @@ public class TurmaTests {
 
         turma.persist();
         Assertions.assertEquals(6, turma.id);
-    }
+    }
 }

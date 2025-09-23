@@ -19,7 +19,6 @@ public class PlannerTests {
 
     planner.persist();
 
-    Assertions.assertEquals(planner.id, 6);
-    }
-
+    Assertions.assertEquals(6, planner.id);
+    }
 }

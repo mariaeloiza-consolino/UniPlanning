@@ -16,7 +16,6 @@ public class ProgressoTests {
         progresso.aluno = Aluno.findById(3);
         progresso.persist();
 
-        Assertions.assertEquals(progresso.id, 6);
-    }
-
+        Assertions.assertEquals(6, progresso.id);
+    }
 }

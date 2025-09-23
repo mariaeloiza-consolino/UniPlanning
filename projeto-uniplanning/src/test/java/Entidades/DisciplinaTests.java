@@ -15,7 +15,6 @@ public void testSalvaUmaDisciplina() {
     disciplina.professor = Professor.findById(1);
     disciplina.persist();
 
-        Assertions.assertEquals(disciplina.id,1);
-    }
-
+        Assertions.assertEquals(6, disciplina.id);
+    }
 }

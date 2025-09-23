@@ -19,6 +19,5 @@ public class CursoTests {
         curso.persist();
 
         Assertions.assertEquals(6, curso.id);
-    }
-
+    }
 }

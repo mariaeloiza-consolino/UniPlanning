@@ -16,6 +16,6 @@ public class ResumosTests {
 
         resumo.persist();
 
-        Assertions.assertEquals(resumo.id, 6);
-    }
+        Assertions.assertEquals(6, resumo.id);
+    }
 }
