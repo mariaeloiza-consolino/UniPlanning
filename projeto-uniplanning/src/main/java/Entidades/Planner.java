@@ -9,9 +9,11 @@ import jakarta.persistence.ManyToOne;
 
 import java.time.LocalDateTime;
 
+import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
+
 
 @Entity
-public class Planner {
+public class Planner extends PanacheEntityBase{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer id;
